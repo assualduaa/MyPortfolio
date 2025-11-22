@@ -52,6 +52,7 @@
 #exp {
   color: #f9861a;
   margin-top: 0;
+  font-weight: 200;
 }
 .styled-list {
   list-style: none; /* Removes default bullets */
@@ -73,9 +74,8 @@
 
 .display-2 {
   font-size: 2.2rem;
-  font-style: italic;
   line-height: 1.333;
-  max-width: 650px;
+  max-width: 700px;
 }
 s-about__section {
   padding-top: 100px;
@@ -277,7 +277,7 @@ p img {
 p.lead {
   font-family: "Gothic A1", sans-serif;
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
   color: #000000;
@@ -285,7 +285,7 @@ p.lead {
 
 @media screen and (max-width:1200px) {
   p.lead {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
 }
@@ -1101,14 +1101,14 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
   background: transparent !important;
-  border: 0.2rem solid #000000;
+  border: 0.2rem solid #ffffff;
   color: #000000;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
   background: #000000 !important;
-  border: 0.2rem solid #000000;
+  border: 0.2rem solid #ffffff;
   color: #ffffff;
 }
 
@@ -1545,7 +1545,7 @@ input::-moz-focus-inner {
 .display-1 {
   font-size: 2.9rem;
   line-height: 1.333;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 
@@ -1777,7 +1777,7 @@ input::-moz-focus-inner {
   list-style: none;
   font-family: "Gothic A1", sans-serif;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   line-height: 6rem;
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
@@ -2542,7 +2542,7 @@ html.no-csstransitions .hero-content {
   width: 24vw;
   position: absolute;
   top: -5rem;
-  left: calc(50% + 80px);
+  left: calc(60% + 80px);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3131,7 +3131,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 14.4rem;
+  padding-top: 10.4rem;
   padding-bottom: 16rem;
   background-color: #ffffff;
 }
